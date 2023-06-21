@@ -28,13 +28,9 @@ const restaurantSchema = new mongoose.Schema({
     },
     reviews: [
         {
-            user: {
-                type: mongoose.Schema.ObjectId,
-                ref: 'User',
-                required: [true,'reviews: users required']
-            },
             name: {
                 type: String,
+                default:'Anonymous user',
                 required:  [true,'reviews: name required']
             },
             rating: {
