@@ -1,0 +1,26 @@
+SECTION 1: database design
+
+1.
+collection name: user
+name:string,
+email:string,
+password:string,
+avatar:string,
+role:string
+
+collection name: restaurant
+name:string,
+description:string,
+address:string,
+ratings:number,
+images:{url:string}
+numOfReviews:number,
+reviews:[
+    {
+        name:string,
+        rating:number,
+        comment:string
+    }
+],
+user: mongoose.Schema.ObjectId,
+createdAt:Date

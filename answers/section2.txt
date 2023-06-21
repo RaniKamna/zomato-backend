@@ -1,0 +1,21 @@
+SECTION 2: RESTful API design
+
+1.
+
+user routes
+HTTP Verb                    API Endpoint                            Brief Description
+
+get                             /users                               give all user data 
+post                            /register                            create new user data
+get                             /user/:id                            gives single user data takes user id in params
+delete                          /user/:id                            delete single user data takes user id in params
+post                           /login                                 user is able to login
+
+
+Restaurant routes
+HTTP Verb                    API Endpoint                            Brief Description
+get                           /restaurants                            get all restaurant data if role is admin
+post                          /restaurant/new                         create new restaurant data
+get                           /restaurant/:id                         get single restaurant detail
+put                           /restaurant/:id                         update single restaurant data
+delete                        /restaurant/:id                          delete restaurant

@@ -1,0 +1,16 @@
+const a = [1, 3, 5, 2, 4];
+
+const result1 = evenIndex(a);
+console.log(result1);
+
+function evenIndex(a) {
+    const result = [];
+
+    for (var i = 0; i < a.length; i++) {
+        if (i % 2 === 0 || i === 0) {
+            result.push(a[i]);
+        }
+    }
+
+    return result;
+}
