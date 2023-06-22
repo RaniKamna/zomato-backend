@@ -19,3 +19,5 @@ post                          /restaurant/new                         create new
 get                           /restaurant/:id                         get single restaurant detail
 put                           /restaurant/:id                         update single restaurant data
 delete                        /restaurant/:id                          delete restaurant
+get                           /restaurant/reviews                      get all restaurant reviews
+put                           /restaurant/review/:id                   create or update restaurant review
