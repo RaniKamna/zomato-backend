@@ -17,9 +17,7 @@ To set up a Node.js project, you can follow these general steps:
    npm install
    ```
 
-5. **Configure the project**: Depending on the project, you may need to perform additional configuration steps. Look for any instructions or documentation provided in the repository's README file.
-
-6. **Start the project**: After the dependencies are installed and the project is configured, you can start the project using the appropriate command. Commonly, projects provide a `start` script in the `package.json` file. To start the project, run:
+5. **Start the project**: After the dependencies are installed and the project is configured, you can start the project using the appropriate command. Commonly, projects provide a `start` script in the `package.json` file. To start the project, run:
    ```
    npm start
    ```
